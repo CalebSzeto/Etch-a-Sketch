@@ -37,7 +37,7 @@ function popUp(){
         userInput = parseInt(userInput);
 
         if(!Number.isInteger(userInput) || userInput > 100 || userInput <= 0){
-            alert("Enter a integer not greater than 100 and greater than 0.")
+            alert("Enter an integer (exclusive) between 0 - 101.")
             continue;
         }
         while(container.hasChildNodes()){
